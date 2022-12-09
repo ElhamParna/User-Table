@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Roboto", 'Segoe UI', 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./Assets/img/1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./Assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "RobotoReg";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./Assets//fonts/Roboto-Regular.ttf");
+}

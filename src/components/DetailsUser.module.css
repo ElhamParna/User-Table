@@ -1,0 +1,236 @@
+.userInformationTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.userInformationTop .leftTitle h5 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.userInformationTop .leftTitle p {
+    text-align: left;
+    color: #7a7e78;
+}
+
+.userInformationTop .RightTitle img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.userInformationTop .RightTitle {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: end;
+}
+
+.userInformationTop .RightTitle h6 {
+    margin-top: 10px;
+}
+
+.userInformation {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.userInformation img {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.myProfile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.myProfile span {
+    background-color: #5b906b;
+    /* background: -webkit-linear-gradient(360deg, #101041 10%, #b2ffb2 360%);
+    background: -moz-linear-gradient(360deg, #101041 10%, #b2ffb2 360%);
+    background: linear-gradient(360deg, #101041 10%, #b2ffb2 360%); */
+    padding: 5px 14px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.name {
+    text-align: right;
+}
+
+.myProfile .name h6,
+.myProfile .name p {
+    color: #7a7e78;
+}
+
+.myInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.myInfo:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: gray;
+    bottom: 13px;
+}
+
+.myInfo p,
+.myInfo h6 {
+    color: #7a7e78;
+}
+
+.buttonBack a {
+    background-color: #5b906b;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #5b906b;
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+
+.buttonBack a:hover {
+    background-color: #fff;
+    border: 1px solid #5b906b;
+    color: #5b906b;
+}
+
+/************* col 2******************/
+.personaltitle {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #808080;
+}
+
+.myWebsite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 10px;
+}
+
+.myCompany,
+.myAdress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myCompany h6,
+.myAdress h6,
+.myWebsite h6 {
+    text-align: left;
+    min-width: 100px;
+}
+
+.myCompany p,
+.myAdress p,
+.myWebsite p {
+    color: gray;
+}
+
+.myCompany div,
+.myAdress div {
+    text-align: right;
+}
+
+@media screen and (max-width:992px) {
+    .userInformationTop .leftTitle h5 {
+        font-size: 16px;
+    }
+
+    .userInformationTop .leftTitle p {
+        font-size: 12px;
+    }
+
+    .myProfile {
+        margin-bottom: 0px;
+    }
+
+    .myProfile h5 {
+        font-size: 16px;
+    }
+
+    .myProfile span {
+        font-size: 10px;
+    }
+
+    .name h6,
+    .name p,
+    .myInfo p,
+    .myCompany h6,
+    .myAdress h6,
+    .myWebsite h6,
+    .myCompany p,
+    .myAdress p,
+    .myWebsite p {
+        font-size: 14px;
+    }
+
+    .buttonBack a {
+        padding: 5px;
+    }
+
+    .personaltitle h5 {
+        font-size: 14px;
+    }
+
+    svg {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .userInformation {
+        margin-top: 20px;
+    }
+
+    svg {
+        font-size: 20px;
+    }
+    .userInformationTop{
+        display: block;
+    }
+    .RightTitle{
+        display: block !important;
+        text-align: left !important;
+    }
+}
